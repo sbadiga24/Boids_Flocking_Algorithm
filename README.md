@@ -14,7 +14,6 @@ This project implements the Boids Flocking Algorithm, initially conceptualized b
 ## Mathematical Model
 
 ### Approach 1: Boids Algorithm
-Implemented by Sai Manikanta Badiga and Jonathan Ranjith Thomas
 
 - Boid agents \( B = \{b_i, i = 1, 2, 3, \ldots, n\} \).
 - Boids within the field of view \( N_i = \{b_i \in B; \forall b_j: |b_j - b_i| \leq L, j = 1, 2, 3, \ldots, f_a\} \).
@@ -23,7 +22,6 @@ Implemented by Sai Manikanta Badiga and Jonathan Ranjith Thomas
 - Next position \( l_j = l_i + v_i + X_a a_i + X_c c_i + X_s s_i \).
 
 ### Approach 2: Potential Fields
-Implemented by Yash Palliwal and Venkata Sai Deepak Mutta
 
 - System of \( N \) robots with position \( r_i \), velocity \( v_i \), and acceleration \( a_i \).
 - Heading \( \theta_i = \arctan2(\dot{r_i}, \dot{r_i}) \).
